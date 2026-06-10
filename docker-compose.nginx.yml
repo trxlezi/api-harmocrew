@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: harmocrew
+      POSTGRES_USER: harmocrew
+      POSTGRES_PASSWORD: harmocrew
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U harmocrew -d harmocrew"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api-1:
+    build: .
+    environment:
+      SERVER_PORT: 8080
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/harmocrew
+      SPRING_DATASOURCE_USERNAME: harmocrew
+      SPRING_DATASOURCE_PASSWORD: harmocrew
+      APP_JWT_SECRET: harmocrew-load-balanced-secret
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api-2:
+    build: .
+    environment:
+      SERVER_PORT: 8080
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/harmocrew
+      SPRING_DATASOURCE_USERNAME: harmocrew
+      SPRING_DATASOURCE_PASSWORD: harmocrew
+      APP_JWT_SECRET: harmocrew-load-balanced-secret
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - api-1
+      - api-2
+
+volumes:
+  postgres-data:

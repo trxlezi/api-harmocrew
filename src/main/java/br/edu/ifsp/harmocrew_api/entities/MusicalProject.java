@@ -64,4 +64,16 @@ public class MusicalProject {
 
 	@OneToMany(mappedBy = "project")
 	private Set<Application> applications = new LinkedHashSet<>();
+
+	@OneToMany(mappedBy = "project")
+	private Set<Rehearsal> rehearsals = new LinkedHashSet<>();
+
+	@OneToMany(mappedBy = "project")
+	private Set<CollaborationMessage> messages = new LinkedHashSet<>();
+
+	@OneToMany(mappedBy = "project")
+	private Set<DecisionRecord> decisions = new LinkedHashSet<>();
+
+	@OneToMany(mappedBy = "project")
+	private Set<WeeklyGoal> weeklyGoals = new LinkedHashSet<>();
 }
