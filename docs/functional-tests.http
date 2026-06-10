@@ -1,0 +1,45 @@
+### Health
+GET http://localhost:8080/health
+
+### Register
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "name": "Marina Costa",
+  "email": "marina@harmocrew.app",
+  "password": "123456",
+  "stageName": "Marina Voz",
+  "mainSpecialty": "Vocal"
+}
+
+### Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "email": "marina@harmocrew.app",
+  "password": "123456"
+}
+
+### List artists
+GET http://localhost:8080/api/artists
+Authorization: Bearer {{token}}
+
+### Create project
+POST http://localhost:8080/api/projects
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "title": "Sessao Neo Soul",
+  "description": "Projeto colaborativo para ensaio gravado",
+  "musicalStyle": "Neo Soul",
+  "status": "ACTIVE",
+  "needs": ["Baixo", "Teclado"],
+  "startDate": "2026-06-10"
+}
+
+### Logout
+POST http://localhost:8080/auth/logout
+Authorization: Bearer {{token}}
