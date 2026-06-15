@@ -16,5 +16,20 @@ services:
       timeout: 5s
       retries: 5
 
+  api:
+    build: .
+    container_name: harmocrew-api
+    environment:
+      SERVER_PORT: 8080
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/harmocrew
+      SPRING_DATASOURCE_USERNAME: harmocrew
+      SPRING_DATASOURCE_PASSWORD: harmocrew
+      APP_JWT_SECRET: harmocrew-development-secret-change-me
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
 volumes:
   postgres-data:
