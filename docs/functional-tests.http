@@ -1,8 +1,15 @@
+@baseUrl = http://localhost:8080
+@token = cole_o_token_aqui
+@artistId = 1
+@projectId = 1
+@taskId = 1
+@applicationId = 1
+
 ### Health
-GET http://localhost:8080/health
+GET {{baseUrl}}/health
 
 ### Register
-POST http://localhost:8080/auth/register
+POST {{baseUrl}}/auth/register
 Content-Type: application/json
 
 {
@@ -14,7 +21,7 @@ Content-Type: application/json
 }
 
 ### Login
-POST http://localhost:8080/auth/login
+POST {{baseUrl}}/auth/login
 Content-Type: application/json
 
 {
@@ -23,23 +30,135 @@ Content-Type: application/json
 }
 
 ### List artists
-GET http://localhost:8080/api/artists
+GET {{baseUrl}}/api/artists
 Authorization: Bearer {{token}}
 
+### Create artist
+POST {{baseUrl}}/api/artists
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "stageName": "Joao Groove",
+  "bio": "Baixista e produtor musical.",
+  "mainSpecialty": "Baixo",
+  "instruments": ["Baixo", "Violao"],
+  "musicalStyles": ["MPB", "Soul"],
+  "availability": "Noites e fins de semana",
+  "city": "Sao Paulo"
+}
+
+### Get artist
+GET {{baseUrl}}/api/artists/{{artistId}}
+Authorization: Bearer {{token}}
+
+### Update artist
+PUT {{baseUrl}}/api/artists/{{artistId}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "stageName": "Joao Groove",
+  "bio": "Baixista, produtor musical e arranjador.",
+  "mainSpecialty": "Baixo",
+  "instruments": ["Baixo", "Violao"],
+  "musicalStyles": ["MPB", "Soul", "Jazz"],
+  "availability": "Noites",
+  "city": "Sao Paulo"
+}
+
 ### Create project
-POST http://localhost:8080/api/projects
+POST {{baseUrl}}/api/projects
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
   "title": "Sessao Neo Soul",
-  "description": "Projeto colaborativo para ensaio gravado",
+  "description": "Projeto colaborativo para ensaio gravado.",
   "musicalStyle": "Neo Soul",
   "status": "ACTIVE",
   "needs": ["Baixo", "Teclado"],
-  "startDate": "2026-06-10"
+  "startDate": "2026-07-01"
+}
+
+### List projects
+GET {{baseUrl}}/api/projects
+Authorization: Bearer {{token}}
+
+### Get project
+GET {{baseUrl}}/api/projects/{{projectId}}
+Authorization: Bearer {{token}}
+
+### Update project
+PUT {{baseUrl}}/api/projects/{{projectId}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "title": "Sessao Neo Soul Deluxe",
+  "description": "Projeto colaborativo para ensaio gravado.",
+  "musicalStyle": "Neo Soul",
+  "status": "ACTIVE",
+  "needs": ["Baixo", "Teclado", "Bateria"],
+  "startDate": "2026-07-01"
+}
+
+### Add artist to project
+POST {{baseUrl}}/api/projects/{{projectId}}/artists/{{artistId}}
+Authorization: Bearer {{token}}
+
+### Create task
+POST {{baseUrl}}/api/projects/{{projectId}}/tasks
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "title": "Gravar guia",
+  "description": "Preparar guia da primeira musica.",
+  "status": "TODO",
+  "priority": "HIGH",
+  "dueDate": "2026-07-10",
+  "responsibleName": "Marina"
+}
+
+### List project tasks
+GET {{baseUrl}}/api/projects/{{projectId}}/tasks
+Authorization: Bearer {{token}}
+
+### Update task status
+PATCH {{baseUrl}}/api/tasks/{{taskId}}/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "status": "DONE"
+}
+
+### Create application
+POST {{baseUrl}}/api/projects/{{projectId}}/applications
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "artistId": {{artistId}},
+  "message": "Tenho interesse em participar do projeto.",
+  "specialty": "Baixo",
+  "availability": "Noites"
+}
+
+### List project applications
+GET {{baseUrl}}/api/projects/{{projectId}}/applications
+Authorization: Bearer {{token}}
+
+### Update application status
+PATCH {{baseUrl}}/api/applications/{{applicationId}}/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "status": "APPROVED"
 }
 
 ### Logout
-POST http://localhost:8080/auth/logout
+POST {{baseUrl}}/auth/logout
 Authorization: Bearer {{token}}
