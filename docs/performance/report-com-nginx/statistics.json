@@ -1,0 +1,50 @@
+{
+  "GET /v3/api-docs" : {
+    "transaction" : "GET /v3/api-docs",
+    "sampleCount" : 500,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 61.91600000000006,
+    "medianResTime" : 25.0,
+    "minResTime" : 4.0,
+    "maxResTime" : 4074.0,
+    "pct1ResTime" : 78.90000000000003,
+    "pct2ResTime" : 117.94999999999999,
+    "pct3ResTime" : 460.97,
+    "throughput" : 17.69598301185631,
+    "receivedKBytesPerSec" : 494.3124004600956,
+    "sentKBytesPerSec" : 2.644028711732437
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 52.57300000000003,
+    "medianResTime" : 19.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 4074.0,
+    "pct1ResTime" : 72.0,
+    "pct2ResTime" : 115.94999999999993,
+    "pct3ResTime" : 529.8100000000002,
+    "throughput" : 34.71981112422748,
+    "receivedKBytesPerSec" : 491.9090972957607,
+    "sentKBytesPerSec" : 5.102862865426012
+  },
+  "GET /health" : {
+    "transaction" : "GET /health",
+    "sampleCount" : 500,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 43.23,
+    "medianResTime" : 15.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 2286.0,
+    "pct1ResTime" : 58.900000000000034,
+    "pct2ResTime" : 108.79999999999995,
+    "pct3ResTime" : 618.1100000000008,
+    "throughput" : 17.37076153418566,
+    "receivedKBytesPerSec" : 6.988915554214147,
+    "sentKBytesPerSec" : 2.5106178779877713
+  }
+}
