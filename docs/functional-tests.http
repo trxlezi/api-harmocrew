@@ -67,6 +67,10 @@ Content-Type: application/json
   "city": "Sao Paulo"
 }
 
+### Delete artist
+DELETE {{baseUrl}}/api/artists/{{artistId}}
+Authorization: Bearer {{token}}
+
 ### Create project
 POST {{baseUrl}}/api/projects
 Authorization: Bearer {{token}}
@@ -102,6 +106,10 @@ Content-Type: application/json
   "needs": ["Baixo", "Teclado", "Bateria"],
   "startDate": "2026-07-01"
 }
+
+### Delete project
+DELETE {{baseUrl}}/api/projects/{{projectId}}
+Authorization: Bearer {{token}}
 
 ### Add artist to project
 POST {{baseUrl}}/api/projects/{{projectId}}/artists/{{artistId}}
