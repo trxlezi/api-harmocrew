@@ -67,6 +67,16 @@ docker compose -f docker-compose.nginx.yml down
 .\mvnw clean test
 ```
 
+## Testes de performance
+
+Documentacao e plano JMeter:
+
+- `docs/performance/jmeter-plan.md`
+- `docs/performance/report-template.md`
+- `docs/performance/harmocrew-performance-test.jmx`
+
+Os testes com JMeter devem comparar o cenario sem NGINX (`docker compose up --build`) com o cenario usando NGINX (`docker compose -f docker-compose.nginx.yml up --build`). Nao registrar metricas sem executar os testes.
+
 ## Observacao
 
 O logout usa blacklist de token em memoria. Com NGINX e mais de uma instancia da API, essa blacklist nao e compartilhada entre as instancias.

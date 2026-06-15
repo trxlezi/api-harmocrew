@@ -1,0 +1,1601 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1781548984837,21,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,18
+1781548984864,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548984867,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548984870,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548984873,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548984876,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548984879,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548984882,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548984884,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548984887,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548984889,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548984892,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548984895,1,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548984897,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548984899,1,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548984901,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548984903,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548984906,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548984908,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548984911,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548985349,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548985351,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985354,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985357,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985359,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985362,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985364,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985367,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985370,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548985373,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985376,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985379,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548985381,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985384,1,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548985386,1,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548985388,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985391,3,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985394,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985397,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985399,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985947,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985950,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985954,6,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,2
+1781548985961,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985965,3,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,2
+1781548985969,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985972,3,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985976,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985979,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985982,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,0
+1781548985985,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985988,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985991,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548985993,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548985996,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548985999,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986002,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986004,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986007,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986010,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986546,3,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986549,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986552,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986555,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986559,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548986561,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986564,1,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548986566,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986569,1,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548986571,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986574,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986577,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986580,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986582,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986585,1,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548986587,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986589,3,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986592,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548986595,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548986598,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987147,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987150,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987153,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987156,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987159,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987162,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,2
+1781548987166,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987169,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987172,3,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987175,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987179,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987182,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987185,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987188,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987191,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,0
+1781548987193,3,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987196,2,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,1
+1781548987199,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987202,3,GET /health,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/health,0,0,2
+1781548987206,2,GET /v3/api-docs,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,Public Endpoints 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.NoHttpResponseException]]]
+
+****** comparison: [[[200                                                            ]]]
+
+/",2092,0,1,1,http://localhost:8080/v3/api-docs,0,0,1
+1781548987746,256,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,1,1,http://localhost:8080/health,252,0,0
+1781548988346,9,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,2,2,http://localhost:8080/health,9,0,1
+1781548988356,507,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,507,0,0
+1781548988002,861,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,861,0,0
+1781548988864,6,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,2,2,http://localhost:8080/health,6,0,0
+1781548988864,6,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,2,2,http://localhost:8080/health,6,0,0
+1781548988870,23,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,23,0,0
+1781548988870,23,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,23,0,0
+1781548988894,6,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,2,2,http://localhost:8080/health,6,0,0
+1781548988894,6,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,2,2,http://localhost:8080/health,6,0,0
+1781548988900,17,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,17,0,0
+1781548988900,18,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,18,0,0
+1781548988918,7,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,2,2,http://localhost:8080/health,6,0,0
+1781548988919,6,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,2,2,http://localhost:8080/health,5,0,0
+1781548988925,15,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,14,0,0
+1781548988925,17,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,2,2,http://localhost:8080/v3/api-docs,17,0,0
+1781548988940,6,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,3,3,http://localhost:8080/health,6,0,0
+1781548988942,6,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,3,3,http://localhost:8080/health,6,0,0
+1781548988946,6,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,3,3,http://localhost:8080/health,6,0,1
+1781548988947,15,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,15,0,0
+1781548988949,16,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,16,0,0
+1781548988953,15,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,15,0,0
+1781548988963,5,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548988966,6,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,3,3,http://localhost:8080/health,6,0,0
+1781548988969,5,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548988969,16,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,16,0,0
+1781548988973,13,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548988975,13,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548988986,6,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,3,3,http://localhost:8080/health,6,0,0
+1781548988987,5,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548988989,6,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,3,3,http://localhost:8080/health,6,0,0
+1781548988993,14,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,14,0,0
+1781548988993,14,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,14,0,0
+1781548988996,12,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,12,0,0
+1781548989008,4,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,3,3,http://localhost:8080/health,4,0,0
+1781548989008,4,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,3,3,http://localhost:8080/health,4,0,0
+1781548989008,4,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,3,3,http://localhost:8080/health,4,0,0
+1781548989013,13,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548989013,13,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548989013,13,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548989027,5,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548989027,5,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548989027,5,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548989033,13,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548989033,13,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548989033,13,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,13,0,0
+1781548989047,5,GET /health,200,,Public Endpoints 1-6,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548989047,5,GET /health,200,,Public Endpoints 1-7,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548989047,5,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,3,3,http://localhost:8080/health,5,0,0
+1781548989052,14,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,14,0,0
+1781548989052,14,GET /v3/api-docs,200,,Public Endpoints 1-6,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,14,0,0
+1781548989052,14,GET /v3/api-docs,200,,Public Endpoints 1-7,text,true,,28611,153,3,3,http://localhost:8080/v3/api-docs,14,0,0
+1781548989066,6,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,1,1,http://localhost:8080/health,6,0,0
+1781548989072,9,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,9,0,0
+1781548989081,5,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548989086,12,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,12,0,0
+1781548989098,4,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548989102,7,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548989109,5,GET /health,200,,Public Endpoints 1-8,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548989114,8,GET /v3/api-docs,200,,Public Endpoints 1-8,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,8,0,0
+1781548989545,5,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,5,0,1
+1781548989551,6,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548989558,3,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548989562,7,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548989570,4,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548989574,6,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548989580,4,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548989584,6,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548989591,3,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548989594,6,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548989601,3,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548989604,6,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548989610,3,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548989614,7,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548989622,4,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548989627,7,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548989634,5,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548989640,8,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,8,0,0
+1781548989648,5,GET /health,200,,Public Endpoints 1-9,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548989654,7,GET /v3/api-docs,200,,Public Endpoints 1-9,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548990144,5,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,5,0,1
+1781548990150,5,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990155,3,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548990159,5,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990164,4,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548990168,6,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548990175,4,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548990179,6,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548990186,4,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548990191,6,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548990198,3,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548990202,5,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990208,3,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548990212,6,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990218,5,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548990223,9,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,9,0,0
+1781548990232,4,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548990237,6,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548990243,4,GET /health,200,,Public Endpoints 1-10,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548990247,6,GET /v3/api-docs,200,,Public Endpoints 1-10,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548990744,4,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548990748,5,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990753,4,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548990757,5,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990762,3,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548990765,5,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990770,3,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548990773,4,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548990778,2,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548990780,5,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990785,2,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548990788,4,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548990792,3,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548990795,4,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548990800,2,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548990802,5,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990808,2,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548990810,5,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548990815,3,GET /health,200,,Public Endpoints 1-11,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548990818,4,GET /v3/api-docs,200,,Public Endpoints 1-11,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548991344,4,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548991349,6,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548991356,3,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548991359,5,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548991365,3,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548991368,6,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548991374,4,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548991378,6,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548991384,3,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548991388,5,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548991394,4,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548991399,8,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,8,0,0
+1781548991407,4,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548991412,6,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548991418,3,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548991422,5,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548991428,3,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548991431,5,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548991436,2,GET /health,200,,Public Endpoints 1-12,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548991439,4,GET /v3/api-docs,200,,Public Endpoints 1-12,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548991945,5,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548991951,6,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548991957,5,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548991962,7,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548991970,5,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548991975,8,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,8,0,0
+1781548991984,5,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548991989,8,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,8,0,0
+1781548991997,4,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548992002,7,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548992009,3,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992013,6,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992019,3,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992023,5,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992029,4,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548992034,6,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548992041,4,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548992046,7,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548992053,4,GET /health,200,,Public Endpoints 1-13,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548992058,8,GET /v3/api-docs,200,,Public Endpoints 1-13,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,8,0,0
+1781548992543,4,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548992548,6,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548992555,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992558,6,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992564,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992567,5,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992572,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992575,5,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992581,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548992584,4,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548992588,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992591,4,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548992596,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992599,5,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992605,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548992608,5,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992613,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992616,5,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548992621,3,GET /health,200,,Public Endpoints 1-14,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548992624,5,GET /v3/api-docs,200,,Public Endpoints 1-14,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993142,10,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,10,0,1
+1781548993152,4,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548993157,3,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993161,5,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993166,3,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993170,5,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993175,3,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993178,5,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993183,5,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548993188,7,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548993195,4,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548993199,6,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548993205,4,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548993209,6,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548993216,5,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548993222,5,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993228,4,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548993232,7,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548993239,3,GET /health,200,,Public Endpoints 1-15,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993243,5,GET /v3/api-docs,200,,Public Endpoints 1-15,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993744,3,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993748,6,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993754,4,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548993759,5,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993764,3,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993767,4,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548993772,3,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993775,5,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993780,2,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548993782,5,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548993787,2,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548993789,5,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548993794,2,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548993797,5,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548993802,3,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993805,4,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548993809,3,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993812,7,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548993819,3,GET /health,200,,Public Endpoints 1-16,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548993822,4,GET /v3/api-docs,200,,Public Endpoints 1-16,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994343,5,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,5,0,1
+1781548994348,4,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994352,3,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548994355,4,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994360,2,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994363,4,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548994367,2,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994370,4,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994374,2,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994377,3,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548994380,2,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994383,3,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548994387,3,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548994390,5,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548994395,2,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994398,4,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994402,3,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548994405,5,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548994411,2,GET /health,200,,Public Endpoints 1-17,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994414,4,GET /v3/api-docs,200,,Public Endpoints 1-17,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994944,3,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548994948,4,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994952,3,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548994955,5,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548994960,3,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548994963,4,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994968,2,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994971,4,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994975,3,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548994978,4,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548994983,2,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994986,3,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548994990,2,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548994992,8,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,8,0,0
+1781548995000,4,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548995004,5,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548995009,3,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548995013,6,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548995019,5,GET /health,200,,Public Endpoints 1-18,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548995024,6,GET /v3/api-docs,200,,Public Endpoints 1-18,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548995545,5,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548995550,5,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548995556,4,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548995560,5,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548995565,3,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548995568,4,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548995572,3,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548995575,5,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548995580,2,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548995582,4,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548995586,2,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548995589,4,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548995594,3,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548995597,5,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548995602,3,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548995605,4,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548995609,3,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548995612,4,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548995617,2,GET /health,200,,Public Endpoints 1-19,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548995619,3,GET /v3/api-docs,200,,Public Endpoints 1-19,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548996145,4,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548996149,5,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548996154,3,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548996157,5,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548996163,3,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548996167,5,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548996173,4,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548996178,6,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548996184,4,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548996189,5,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548996195,3,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548996199,6,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548996205,5,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548996210,4,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548996215,3,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548996219,5,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548996225,2,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996228,6,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548996234,4,GET /health,200,,Public Endpoints 1-20,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548996239,5,GET /v3/api-docs,200,,Public Endpoints 1-20,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548996744,4,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548996748,4,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548996752,2,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996754,4,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548996758,2,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996760,3,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548996763,3,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548996766,4,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548996770,3,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548996773,3,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548996777,2,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996779,3,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548996783,2,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996785,3,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548996788,2,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996790,3,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548996794,2,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996796,3,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548996799,2,GET /health,200,,Public Endpoints 1-21,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548996801,3,GET /v3/api-docs,200,,Public Endpoints 1-21,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997345,4,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548997349,4,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548997353,2,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997355,3,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997359,1,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781548997360,4,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548997364,2,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997366,3,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997370,2,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997372,3,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997376,1,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781548997377,3,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997380,2,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997382,3,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997385,2,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997388,3,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997392,2,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997394,4,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548997398,2,GET /health,200,,Public Endpoints 1-22,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997401,3,GET /v3/api-docs,200,,Public Endpoints 1-22,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997945,4,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548997949,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997952,2,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997954,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997957,3,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548997960,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997963,3,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548997966,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997969,2,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997971,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997974,2,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997976,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997980,2,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997982,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997985,2,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997987,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997990,2,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997993,3,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548997997,2,GET /health,200,,Public Endpoints 1-23,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548997999,4,GET /v3/api-docs,200,,Public Endpoints 1-23,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548998544,4,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548998548,4,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548998553,2,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548998555,4,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548998559,2,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548998561,5,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548998566,3,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548998569,3,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548998573,2,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548998575,3,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548998578,2,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548998580,3,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548998583,3,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548998586,4,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548998590,3,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548998593,3,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548998596,2,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548998598,3,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548998601,2,GET /health,200,,Public Endpoints 1-24,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548998604,3,GET /v3/api-docs,200,,Public Endpoints 1-24,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999144,4,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548999148,3,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999151,3,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548999154,4,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548999158,4,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,4,0,0
+1781548999163,7,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781548999170,6,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,6,0,0
+1781548999176,7,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,7,0,0
+1781548999183,5,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,5,0,0
+1781548999188,5,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781548999193,3,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548999196,4,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548999200,3,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548999203,4,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548999207,3,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548999210,3,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999213,3,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781548999216,3,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999220,2,GET /health,200,,Public Endpoints 1-25,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999222,4,GET /v3/api-docs,200,,Public Endpoints 1-25,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548999744,4,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781548999748,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999751,2,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999753,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999756,2,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999759,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999762,2,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999764,4,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781548999768,1,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781548999770,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999773,2,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999775,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999778,2,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999781,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999784,2,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999786,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999790,2,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781548999792,3,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781548999795,1,GET /health,200,,Public Endpoints 1-26,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781548999797,2,GET /v3/api-docs,200,,Public Endpoints 1-26,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549000344,3,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549000347,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000350,2,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000352,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000356,2,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000358,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000361,2,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000363,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000366,3,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000369,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000372,2,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000374,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000377,2,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000379,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000382,1,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549000384,2,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549000386,2,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000388,4,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549000392,1,GET /health,200,,Public Endpoints 1-27,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549000394,3,GET /v3/api-docs,200,,Public Endpoints 1-27,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000943,4,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781549000947,3,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000950,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000952,4,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549000956,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000958,3,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000961,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000963,4,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549000967,1,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549000968,4,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549000972,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000974,3,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000978,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000980,3,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000983,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000986,3,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000989,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000991,3,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549000995,2,GET /health,200,,Public Endpoints 1-28,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549000997,4,GET /v3/api-docs,200,,Public Endpoints 1-28,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001542,3,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549001545,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001549,1,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549001550,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001553,1,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549001555,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001558,2,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549001560,4,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549001564,2,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549001566,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001569,2,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549001571,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001574,2,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549001576,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001580,2,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549001582,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549001585,2,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549001587,4,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549001591,2,GET /health,200,,Public Endpoints 1-29,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549001593,3,GET /v3/api-docs,200,,Public Endpoints 1-29,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002144,3,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549002147,3,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002150,2,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002152,3,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002155,2,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002157,2,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549002160,1,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549002161,2,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549002164,1,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549002165,3,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002168,2,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002170,4,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549002174,2,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002176,3,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002180,1,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549002182,2,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549002184,2,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002186,3,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002189,2,GET /health,200,,Public Endpoints 1-30,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002191,3,GET /v3/api-docs,200,,Public Endpoints 1-30,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002743,4,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781549002747,3,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002751,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002753,3,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002756,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002758,3,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002761,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002763,3,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002766,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002768,4,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549002772,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002774,4,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002778,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002780,3,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549002784,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002786,4,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549002790,3,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549002793,4,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549002797,2,GET /health,200,,Public Endpoints 1-31,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549002799,3,GET /v3/api-docs,200,,Public Endpoints 1-31,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003343,4,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781549003347,4,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549003351,2,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003353,3,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003356,2,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003358,6,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781549003364,3,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549003367,5,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781549003372,2,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003375,3,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003378,3,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549003381,3,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003384,2,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003387,3,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003390,2,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003392,4,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549003396,2,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003399,3,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003402,2,GET /health,200,,Public Endpoints 1-32,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003404,3,GET /v3/api-docs,200,,Public Endpoints 1-32,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003942,4,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781549003946,3,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003949,2,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003951,4,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549003955,1,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549003956,4,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549003960,2,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003962,3,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003965,2,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003967,3,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003970,3,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003973,3,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003976,1,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549003977,3,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003981,1,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549003982,3,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003985,3,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549003988,3,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549003991,2,GET /health,200,,Public Endpoints 1-33,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549003993,4,GET /v3/api-docs,200,,Public Endpoints 1-33,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549004544,3,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549004547,3,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549004551,1,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549004552,4,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549004556,2,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549004558,2,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549004560,1,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549004562,2,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549004565,1,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549004566,4,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549004570,2,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549004572,3,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549004575,2,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549004577,3,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549004580,2,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549004582,3,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549004585,2,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549004587,3,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549004590,2,GET /health,200,,Public Endpoints 1-34,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549004592,3,GET /v3/api-docs,200,,Public Endpoints 1-34,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005144,3,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549005148,3,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005151,3,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549005154,4,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549005158,2,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005160,4,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549005164,2,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005166,4,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549005170,3,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549005173,5,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781549005178,2,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005180,3,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005183,2,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005185,3,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005188,2,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005190,3,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005193,1,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549005195,3,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005198,2,GET /health,200,,Public Endpoints 1-35,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005201,3,GET /v3/api-docs,200,,Public Endpoints 1-35,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005744,3,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,3,0,1
+1781549005747,4,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549005751,1,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549005753,2,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549005755,1,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549005756,3,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005759,2,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005761,3,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549005764,1,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549005765,3,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005768,2,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005770,2,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549005773,1,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549005774,2,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549005777,1,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549005778,3,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005781,2,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005783,3,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549005786,2,GET /health,200,,Public Endpoints 1-36,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549005789,3,GET /v3/api-docs,200,,Public Endpoints 1-36,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006343,3,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,3,0,1
+1781549006346,3,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006349,2,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006351,3,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006354,2,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006356,2,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549006358,2,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006360,3,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006363,1,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549006364,3,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006367,2,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006369,4,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549006373,3,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549006376,3,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006379,2,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006381,3,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006385,1,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549006386,4,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549006390,2,GET /health,200,,Public Endpoints 1-37,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006392,3,GET /v3/api-docs,200,,Public Endpoints 1-37,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006944,3,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,3,0,1
+1781549006947,3,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006950,2,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006952,3,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006955,2,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006957,3,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006961,1,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549006962,3,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006965,2,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006967,3,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006970,2,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549006972,2,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549006975,1,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549006976,2,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549006979,1,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549006981,2,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549006984,1,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549006985,3,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549006989,1,GET /health,200,,Public Endpoints 1-38,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549006990,3,GET /v3/api-docs,200,,Public Endpoints 1-38,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549007544,3,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,3,0,1
+1781549007548,2,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549007551,1,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549007552,3,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549007555,3,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549007558,3,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549007561,3,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549007564,3,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549007568,2,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549007570,4,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549007574,3,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549007577,4,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549007582,2,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549007584,5,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781549007589,3,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549007592,5,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781549007597,3,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549007600,4,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549007605,2,GET /health,200,,Public Endpoints 1-39,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549007607,3,GET /v3/api-docs,200,,Public Endpoints 1-39,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008145,4,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781549008149,3,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008152,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008154,4,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549008158,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008160,3,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008164,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008166,4,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549008170,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008173,4,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549008177,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008179,3,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008182,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008184,3,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008187,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008189,3,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008192,2,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008194,3,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008198,1,GET /health,200,,Public Endpoints 1-40,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549008199,3,GET /v3/api-docs,200,,Public Endpoints 1-40,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008744,3,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549008747,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008751,1,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549008752,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008756,1,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549008757,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008760,2,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008762,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008765,2,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008767,2,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549008769,2,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008771,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008774,2,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008776,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008779,2,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008781,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008784,2,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008786,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549008789,2,GET /health,200,,Public Endpoints 1-41,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549008791,3,GET /v3/api-docs,200,,Public Endpoints 1-41,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009345,3,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,3,0,1
+1781549009348,3,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009351,2,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549009353,3,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009356,2,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549009358,2,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009360,2,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549009362,2,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009364,1,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009365,3,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009368,1,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009370,3,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009373,3,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549009376,3,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009379,1,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009380,2,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009382,2,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549009384,3,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009387,2,GET /health,200,,Public Endpoints 1-42,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549009389,3,GET /v3/api-docs,200,,Public Endpoints 1-42,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009945,2,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549009948,2,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009951,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009952,3,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009955,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009957,2,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009960,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009961,3,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009964,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009966,2,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009968,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009969,2,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009972,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009973,3,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009976,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009978,2,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549009981,1,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549009982,3,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549009986,2,GET /health,200,,Public Endpoints 1-43,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549009988,3,GET /v3/api-docs,200,,Public Endpoints 1-43,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549010544,3,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549010548,3,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549010551,2,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549010554,3,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549010557,2,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549010560,4,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549010564,3,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549010567,4,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549010571,3,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549010574,4,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549010579,2,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549010582,3,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549010586,2,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549010588,4,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549010593,2,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549010595,3,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549010599,1,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549010601,2,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549010603,2,GET /health,200,,Public Endpoints 1-44,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549010605,3,GET /v3/api-docs,200,,Public Endpoints 1-44,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011144,3,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549011148,2,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549011151,1,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549011153,3,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011156,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011158,3,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011161,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011163,3,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011166,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011168,3,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011171,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011173,3,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011176,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011178,2,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549011180,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011183,2,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549011186,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011188,3,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011191,2,GET /health,200,,Public Endpoints 1-45,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011193,4,GET /v3/api-docs,200,,Public Endpoints 1-45,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549011744,4,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781549011749,3,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011752,3,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549011755,4,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549011759,2,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011761,5,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
+1781549011766,3,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549011769,4,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549011773,2,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011775,3,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011778,1,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549011780,2,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549011782,2,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011784,4,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549011788,2,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011790,4,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549011794,2,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011797,3,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549011800,2,GET /health,200,,Public Endpoints 1-46,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549011802,3,GET /v3/api-docs,200,,Public Endpoints 1-46,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012345,4,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,4,0,1
+1781549012349,3,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012352,1,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549012353,3,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012357,1,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549012358,4,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549012362,2,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012364,2,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549012366,1,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549012367,3,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012371,1,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549012372,4,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,4,0,0
+1781549012376,3,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549012379,3,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012382,2,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012384,3,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012387,3,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549012390,3,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012393,2,GET /health,200,,Public Endpoints 1-47,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012395,3,GET /v3/api-docs,200,,Public Endpoints 1-47,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012944,3,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,3,0,1
+1781549012948,2,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549012951,2,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012953,3,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012956,2,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549012958,6,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,6,0,0
+1781549012964,2,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012966,3,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012969,2,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012971,3,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012974,2,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012976,3,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012979,2,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012981,3,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012984,1,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549012986,2,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549012989,1,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549012990,3,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549012993,2,GET /health,200,,Public Endpoints 1-48,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549012995,3,GET /v3/api-docs,200,,Public Endpoints 1-48,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549013544,3,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549013547,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549013550,1,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549013552,2,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549013554,2,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549013556,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549013559,2,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549013561,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549013564,2,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549013566,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549013569,1,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549013571,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549013574,1,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549013575,4,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549013579,1,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549013580,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549013583,2,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,2,0,0
+1781549013585,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549013588,1,GET /health,200,,Public Endpoints 1-49,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549013590,3,GET /v3/api-docs,200,,Public Endpoints 1-49,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549014146,3,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,3,0,0
+1781549014149,3,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549014152,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014153,3,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549014156,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014157,3,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549014160,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014162,2,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549014164,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014165,3,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,3,0,0
+1781549014168,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014169,2,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549014172,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014173,3,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549014176,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014177,2,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549014180,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014181,2,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,2,0,0
+1781549014184,1,GET /health,200,,Public Endpoints 1-50,text,true,,414,148,1,1,http://localhost:8080/health,1,0,0
+1781549014185,5,GET /v3/api-docs,200,,Public Endpoints 1-50,text,true,,28611,153,1,1,http://localhost:8080/v3/api-docs,5,0,0
