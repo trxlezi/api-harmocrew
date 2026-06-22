@@ -38,19 +38,26 @@ class ApiIntegrationTest {
 		String email = uniqueEmail();
 		String password = "secret123";
 
-		mockMvc.perform(post("/auth/register")
+		MvcResult registerResult = mockMvc.perform(post("/auth/register")
 				.contentType(MediaType.APPLICATION_JSON)
 				.content(registerBody(email, password)))
 			.andExpect(status().isCreated())
 			.andExpect(jsonPath("$.token").value(notNullValue()))
 			.andExpect(jsonPath("$.userId").value(notNullValue()))
-			.andExpect(jsonPath("$.password").doesNotExist());
+			.andExpect(jsonPath("$.artistId").value(notNullValue()))
+			.andExpect(jsonPath("$.password").doesNotExist())
+			.andReturn();
+
+		Long artistId = json(registerResult).get("artistId").asLong();
 
 		mockMvc.perform(post("/auth/login")
 				.contentType(MediaType.APPLICATION_JSON)
 				.content(loginBody(email, password)))
 			.andExpect(status().isOk())
 			.andExpect(jsonPath("$.token").value(notNullValue()))
+			.andExpect(jsonPath("$.userId").value(notNullValue()))
+			.andExpect(jsonPath("$.artistId").value(artistId))
+			.andExpect(jsonPath("$.password").doesNotExist())
 			.andExpect(jsonPath("$.email").value(email));
 	}
 

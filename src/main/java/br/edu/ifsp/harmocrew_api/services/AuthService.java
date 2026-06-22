@@ -82,7 +82,8 @@ public class AuthService {
 	}
 
 	private AuthResponse toAuthResponse(User user) {
-		return new AuthResponse(jwtService.generateToken(user), user.getId(), user.getName(), user.getEmail(), user.getRole());
+		Long artistId = user.getArtist() == null ? null : user.getArtist().getId();
+		return new AuthResponse(jwtService.generateToken(user), user.getId(), artistId, user.getName(), user.getEmail(), user.getRole());
 	}
 
 	private boolean hasText(String value) {
