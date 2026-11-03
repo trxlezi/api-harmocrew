@@ -1,0 +1,65 @@
+services:
+  registry:
+    image: registry:2
+    container_name: harmocrew-registry
+    ports:
+      - "127.0.0.1:5000:5000"
+    networks:
+      - swarm-lab
+    restart: unless-stopped
+
+  manager:
+    image: docker:29-dind
+    container_name: harmocrew-manager
+    privileged: true
+    command:
+      - --tls=false
+      - --insecure-registry=registry:5000
+    environment:
+      DOCKER_TLS_CERTDIR: ""
+    ports:
+      - "127.0.0.1:2375:2375"
+    volumes:
+      - manager-data:/var/lib/docker
+    networks:
+      - swarm-lab
+    restart: unless-stopped
+
+  worker-1:
+    image: docker:29-dind
+    container_name: harmocrew-worker-1
+    privileged: true
+    command:
+      - --tls=false
+      - --insecure-registry=registry:5000
+    environment:
+      DOCKER_TLS_CERTDIR: ""
+    volumes:
+      - worker-1-data:/var/lib/docker
+    networks:
+      - swarm-lab
+    restart: unless-stopped
+
+  worker-2:
+    image: docker:29-dind
+    container_name: harmocrew-worker-2
+    privileged: true
+    command:
+      - --tls=false
+      - --insecure-registry=registry:5000
+    environment:
+      DOCKER_TLS_CERTDIR: ""
+    volumes:
+      - worker-2-data:/var/lib/docker
+    networks:
+      - swarm-lab
+    restart: unless-stopped
+
+networks:
+  swarm-lab:
+    name: harmocrew-swarm-lab
+
+volumes:
+  manager-data:
+  worker-1-data:
+  worker-2-data:

@@ -41,6 +41,33 @@ docker compose logs -f api
 docker compose logs -f postgres
 ```
 
+## Docker Swarm e Visualizer
+
+O laboratorio da disciplina cria um cluster Docker-in-Docker com um manager,
+dois workers, registry local, API replicada, PostgreSQL e Docker Visualizer.
+
+Documentacao e roteiro completo da apresentacao:
+
+- `docs/APRESENTACAO-CONTAINERS.md`
+- `infra/swarm/docker-compose.cluster.yml`
+- `infra/swarm/stack.yml`
+
+Inicializacao resumida (Linux ou WSL):
+
+```bash
+chmod +x infra/swarm/*.sh
+./infra/swarm/init-cluster.sh
+./infra/swarm/deploy.sh
+```
+
+Escalar a API de duas para cinco replicas:
+
+```bash
+DOCKER_HOST=tcp://127.0.0.1:2375 docker service scale harmocrew_api=5
+```
+
+Visualizer: `http://localhost:8081`.
+
 ## NGINX
 
 Subir PostgreSQL, duas instancias da API e NGINX:
