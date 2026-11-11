@@ -57,6 +57,27 @@ public class RehearsalService {
 		return RehearsalMapper.toResponse(rehearsal);
 	}
 
+	/*
+	 * Registra quem compareceu. Marca o ensaio como realizado e aceita apenas
+	 * artistas convidados (ou integrantes, se o ensaio nao tem convidados).
+	 */
+	@Transactional
+	public RehearsalResponse registerAttendance(Long id, java.util.Set<Long> attended) {
+		Rehearsal rehearsal = findEntity(id);
+		java.util.Set<Long> allowed = rehearsal.getParticipantArtistIds().isEmpty()
+			? rehearsal.getProject().getArtists().stream().map(br.edu.ifsp.harmocrew_api.entities.Artist::getId)
+				.collect(java.util.stream.Collectors.toSet())
+			: rehearsal.getParticipantArtistIds();
+		for (Long artistId : attended) {
+			if (!allowed.isEmpty() && !allowed.contains(artistId)) {
+				throw new br.edu.ifsp.harmocrew_api.exceptions.BusinessException("Artista " + artistId + " nao foi convidado para este ensaio");
+			}
+		}
+		rehearsal.setAttendedArtistIds(new LinkedHashSet<>(attended));
+		rehearsal.setStatus(br.edu.ifsp.harmocrew_api.enums.RehearsalStatus.COMPLETED);
+		return RehearsalMapper.toResponse(rehearsal);
+	}
+
 	@Transactional
 	public void delete(Long id) {
 		rehearsalRepository.delete(findEntity(id));

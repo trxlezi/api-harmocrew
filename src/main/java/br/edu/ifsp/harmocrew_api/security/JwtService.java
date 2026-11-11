@@ -21,6 +21,18 @@ import br.edu.ifsp.harmocrew_api.exceptions.BusinessException;
 @Service
 public class JwtService {
 
+	/*
+	 * Implementacao simples de JWT com HMAC SHA-256.
+	 *
+	 * JWT tem tres partes: header.payload.signature.
+	 * - header: algoritmo e tipo do token;
+	 * - payload: dados que o backend precisa reconhecer depois;
+	 * - signature: assinatura calculada com segredo do servidor.
+	 *
+	 * O token nao criptografa os dados, ele assina. Entao nao colocamos senha
+	 * nem informacao sensivel no payload. O objetivo e provar que o token foi
+	 * gerado pelo backend e nao foi alterado pelo cliente.
+	 */
 	private static final String HMAC_ALGORITHM = "HmacSHA256";
 	private static final Base64.Encoder URL_ENCODER = Base64.getUrlEncoder().withoutPadding();
 	private static final Base64.Decoder URL_DECODER = Base64.getUrlDecoder();
@@ -40,6 +52,12 @@ public class JwtService {
 
 	public String generateToken(User user) {
 		try {
+			/*
+			 * "sub" e o subject do JWT. Aqui usamos o email porque identifica o
+			 * usuario de forma legivel. Tambem mandamos userId/name/role porque o
+			 * filtro de seguranca pode reconstruir a autenticacao sem consultar o
+			 * banco a cada requisicao.
+			 */
 			Map<String, Object> header = Map.of("alg", "HS256", "typ", "JWT");
 			Map<String, Object> payload = new LinkedHashMap<>();
 			payload.put("sub", user.getEmail());
@@ -61,6 +79,13 @@ public class JwtService {
 
 	public JwtUser parseAndValidate(String token) {
 		try {
+			/*
+			 * Validar um JWT significa:
+			 * 1. confirmar que ha tres partes;
+			 * 2. recalcular a assinatura com o segredo do servidor;
+			 * 3. comparar a assinatura recebida com a esperada;
+			 * 4. verificar se ainda nao expirou.
+			 */
 			String[] parts = token.split("\\.");
 			if (parts.length != 3) {
 				throw new BusinessException("Token JWT invalido");

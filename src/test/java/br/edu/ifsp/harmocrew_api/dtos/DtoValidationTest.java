@@ -35,7 +35,7 @@ class DtoValidationTest {
 
 	@Test
 	void shouldValidateArtistRequestRequiredFields() {
-		ArtistRequest request = new ArtistRequest("", null, "", Set.of(), Set.of(), "", null);
+		ArtistRequest request = new ArtistRequest("", null, "", Set.of(), Set.of(), "", null, null, null);
 
 		Set<ConstraintViolation<ArtistRequest>> violations = validator.validate(request);
 

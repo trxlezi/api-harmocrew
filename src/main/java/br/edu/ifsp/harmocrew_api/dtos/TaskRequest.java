@@ -1,5 +1,7 @@
 package br.edu.ifsp.harmocrew_api.dtos;
 
+import br.edu.ifsp.harmocrew_api.enums.ProductionStage;
+
 import java.time.LocalDate;
 
 import br.edu.ifsp.harmocrew_api.enums.TaskPriority;
@@ -27,6 +29,12 @@ public record TaskRequest(
 
 	@NotBlank
 	@Size(max = 120)
-	String responsibleName
+	String responsibleName,
+
+	ProductionStage stage,
+
+	LocalDate startDate,
+
+	Long assigneeArtistId
 ) {
 }

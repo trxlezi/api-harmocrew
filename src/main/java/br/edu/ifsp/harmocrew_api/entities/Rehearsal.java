@@ -56,6 +56,12 @@ public class Rehearsal {
 	@Column(name = "artist_id", nullable = false)
 	private Set<Long> participantArtistIds = new LinkedHashSet<>();
 
+	// Presenca registrada apos o ensaio (base da metrica de assiduidade).
+	@ElementCollection
+	@CollectionTable(name = "rehearsal_attendance", joinColumns = @JoinColumn(name = "rehearsal_id"))
+	@Column(name = "artist_id", nullable = false)
+	private Set<Long> attendedArtistIds = new LinkedHashSet<>();
+
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "project_id", nullable = false)
 	private MusicalProject project;

@@ -26,6 +26,11 @@ public record MusicalProjectRequest(
 	Set<@NotBlank @Size(max = 80) String> needs,
 
 	@NotNull
-	LocalDate startDate
+	LocalDate startDate,
+
+	@Size(max = 120)
+	String location,
+
+	Set<@NotBlank @Size(max = 80) String> desiredInfluences
 ) {
 }

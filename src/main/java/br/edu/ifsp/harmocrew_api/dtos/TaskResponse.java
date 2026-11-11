@@ -1,5 +1,9 @@
 package br.edu.ifsp.harmocrew_api.dtos;
 
+import java.time.LocalDateTime;
+
+import br.edu.ifsp.harmocrew_api.enums.ProductionStage;
+
 import java.time.LocalDate;
 
 import br.edu.ifsp.harmocrew_api.enums.TaskPriority;
@@ -14,6 +18,13 @@ public record TaskResponse(
 	LocalDate dueDate,
 	String responsibleName,
 	Long projectId,
-	String projectTitle
+	String projectTitle,
+	ProductionStage stage,
+	LocalDate startDate,
+	Long assigneeArtistId,
+	String assigneeName,
+	LocalDateTime completedAt,
+	LocalDateTime updatedAt,
+	boolean overdue
 ) {
 }

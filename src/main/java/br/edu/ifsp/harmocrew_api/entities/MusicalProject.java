@@ -52,6 +52,14 @@ public class MusicalProject {
 
 	private LocalDate startDate;
 
+	// Cidade/regiao da vaga, usada no ranqueamento de candidatos.
+	private String location;
+
+	@ElementCollection
+	@CollectionTable(name = "project_desired_influences", joinColumns = @JoinColumn(name = "project_id"))
+	@Column(name = "influence", nullable = false)
+	private Set<String> desiredInfluences = new LinkedHashSet<>();
+
 	@ManyToMany
 	@JoinTable(
 		name = "musical_project_artists",
@@ -76,4 +84,10 @@ public class MusicalProject {
 
 	@OneToMany(mappedBy = "project")
 	private Set<WeeklyGoal> weeklyGoals = new LinkedHashSet<>();
+
+	@OneToMany(mappedBy = "project")
+	private Set<ProjectFile> files = new LinkedHashSet<>();
+
+	@OneToMany(mappedBy = "project")
+	private Set<Poll> polls = new LinkedHashSet<>();
 }

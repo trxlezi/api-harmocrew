@@ -16,6 +16,7 @@ public record RehearsalResponse(
 	String location,
 	Set<Long> participantArtistIds,
 	String notes,
-	RehearsalStatus status
+	RehearsalStatus status,
+	Set<Long> attendedArtistIds
 ) {
 }

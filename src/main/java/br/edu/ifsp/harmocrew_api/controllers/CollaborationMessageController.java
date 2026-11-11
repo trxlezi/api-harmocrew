@@ -22,6 +22,13 @@ import jakarta.validation.Valid;
 @RequestMapping("/api")
 public class CollaborationMessageController {
 
+	/*
+	 * Controller REST das mensagens.
+	 *
+	 * Ele define as URLs e codigos HTTP. A regra de negocio fica no service.
+	 * Assim fica facil explicar a separacao em camadas:
+	 * Controller = HTTP, Service = regra, Repository = banco.
+	 */
 	private final CollaborationMessageService messageService;
 
 	public CollaborationMessageController(CollaborationMessageService messageService) {
@@ -30,11 +37,13 @@ public class CollaborationMessageController {
 
 	@GetMapping("/messages")
 	public List<CollaborationMessageResponse> list(@RequestParam(required = false) Long projectId) {
+		// Exemplo: GET /api/messages?projectId=1 filtra por projeto.
 		return messageService.list(projectId);
 	}
 
 	@GetMapping("/projects/{projectId}/messages")
 	public List<CollaborationMessageResponse> listByProject(@PathVariable Long projectId) {
+		// Rota alternativa mais RESTful para listar mensagens de um projeto.
 		return messageService.list(projectId);
 	}
 
@@ -44,6 +53,7 @@ public class CollaborationMessageController {
 		@PathVariable Long projectId,
 		@Valid @RequestBody CollaborationMessageRequest request
 	) {
+		// Retorna 201 Created porque cria um novo registro no banco.
 		return messageService.create(projectId, request);
 	}
 

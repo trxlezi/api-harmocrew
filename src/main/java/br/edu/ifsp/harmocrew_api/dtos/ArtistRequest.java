@@ -26,6 +26,11 @@ public record ArtistRequest(
 	String availability,
 
 	@Size(max = 120)
-	String city
+	String city,
+
+	Set<@NotBlank @Size(max = 80) String> influences,
+
+	@Size(max = 500)
+	String audioUrl
 ) {
 }

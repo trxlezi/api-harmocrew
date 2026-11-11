@@ -14,6 +14,10 @@ public record ApplicationResponse(
 	Long artistId,
 	String artistName,
 	Long projectId,
-	String projectTitle
+	String projectTitle,
+	Integer matchScore,
+	String evaluationNote,
+	LocalDateTime statusUpdatedAt,
+	String artistAudioUrl
 ) {
 }

@@ -27,6 +27,13 @@ public final class TaskMapper {
 			task.getDueDate(),
 			task.getResponsibleName(),
 			projectId,
-			projectTitle);
+			projectTitle,
+			task.getStage(),
+			task.getStartDate(),
+			task.getAssignee() == null ? null : task.getAssignee().getId(),
+			task.getAssignee() == null ? null : task.getAssignee().getStageName(),
+			task.getCompletedAt(),
+			task.getUpdatedAt(),
+			task.isOverdue());
 	}
 }

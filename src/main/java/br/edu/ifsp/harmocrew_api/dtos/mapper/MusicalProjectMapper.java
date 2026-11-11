@@ -44,6 +44,8 @@ public final class MusicalProjectMapper {
 			project.getStatus(),
 			new LinkedHashSet<>(project.getNeeds()),
 			project.getStartDate(),
-			artists);
+			artists,
+			project.getLocation(),
+			new LinkedHashSet<>(project.getDesiredInfluences()));
 	}
 }

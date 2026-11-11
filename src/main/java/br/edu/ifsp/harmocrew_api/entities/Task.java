@@ -1,5 +1,11 @@
 package br.edu.ifsp.harmocrew_api.entities;
 
+import java.time.LocalDateTime;
+
+import br.edu.ifsp.harmocrew_api.enums.ProductionStage;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.PreUpdate;
+
 import java.time.LocalDate;
 
 import br.edu.ifsp.harmocrew_api.enums.TaskPriority;
@@ -46,6 +52,35 @@ public class Task {
 
 	@Column(nullable = false)
 	private String responsibleName;
+
+	// Etapa do workflow musical (Composicao -> ... -> Lancamento).
+	@Enumerated(EnumType.STRING)
+	private ProductionStage stage;
+
+	// Inicio planejado: junto com dueDate forma a barra do Gantt.
+	private LocalDate startDate;
+
+	// Responsavel formal (artista). responsibleName continua como texto livre.
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "assignee_artist_id")
+	private Artist assignee;
+
+	private LocalDateTime completedAt;
+
+	private LocalDateTime updatedAt;
+
+	// Evita alertar o mesmo atraso repetidamente.
+	private LocalDateTime overdueNotifiedAt;
+
+	@PrePersist
+	@PreUpdate
+	void touch() {
+		updatedAt = LocalDateTime.now();
+	}
+
+	public boolean isOverdue() {
+		return status != TaskStatus.DONE && dueDate != null && dueDate.isBefore(LocalDate.now());
+	}
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "project_id", nullable = false)

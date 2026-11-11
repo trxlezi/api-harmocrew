@@ -23,6 +23,7 @@ public final class RehearsalMapper {
 			rehearsal.getLocation(),
 			new LinkedHashSet<>(rehearsal.getParticipantArtistIds()),
 			rehearsal.getNotes(),
-			rehearsal.getStatus());
+			rehearsal.getStatus(),
+			new LinkedHashSet<>(rehearsal.getAttendedArtistIds()));
 	}
 }

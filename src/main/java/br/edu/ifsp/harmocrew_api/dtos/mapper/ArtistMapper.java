@@ -39,6 +39,9 @@ public final class ArtistMapper {
 			new LinkedHashSet<>(artist.getMusicalStyles()),
 			artist.getAvailability(),
 			artist.getCity(),
-			userId);
+			userId,
+			new LinkedHashSet<>(artist.getInfluences()),
+			artist.getAudioUrl(),
+			artist.getAudioFilename());
 	}
 }

@@ -14,6 +14,8 @@ public record MusicalProjectResponse(
 	ProjectStatus status,
 	Set<String> needs,
 	LocalDate startDate,
-	List<ArtistSummaryResponse> artists
+	List<ArtistSummaryResponse> artists,
+	String location,
+	Set<String> desiredInfluences
 ) {
 }

@@ -28,6 +28,10 @@ public final class ApplicationMapper {
 			artist == null ? null : artist.getId(),
 			artist == null ? null : artist.getStageName(),
 			project == null ? null : project.getId(),
-			project == null ? null : project.getTitle());
+			project == null ? null : project.getTitle(),
+			application.getMatchScore(),
+			application.getEvaluationNote(),
+			application.getStatusUpdatedAt(),
+			artist == null ? null : artist.getAudioUrl());
 	}
 }

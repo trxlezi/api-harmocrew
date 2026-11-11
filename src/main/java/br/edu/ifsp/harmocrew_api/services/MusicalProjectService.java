@@ -18,6 +18,12 @@ import br.edu.ifsp.harmocrew_api.repositories.MusicalProjectRepository;
 @Service
 public class MusicalProjectService {
 
+	/*
+	 * Service dos projetos musicais.
+	 *
+	 * Ele isola a regra de negocio dos controllers. O controller so expoe HTTP;
+	 * este service cria, edita, lista e relaciona projetos com artistas.
+	 */
 	private final MusicalProjectRepository projectRepository;
 	private final ArtistService artistService;
 
@@ -57,6 +63,12 @@ public class MusicalProjectService {
 
 	@Transactional
 	public MusicalProjectResponse addArtist(Long projectId, Long artistId) {
+		/*
+		 * Relacionamento muitos-para-muitos:
+		 * um projeto pode ter varios artistas, e um artista pode participar de
+		 * varios projetos. O JPA salva a tabela de ligacao automaticamente ao
+		 * adicionar o Artist no Set do projeto.
+		 */
 		MusicalProject project = findEntity(projectId);
 		Artist artist = artistService.findEntity(artistId);
 		project.getArtists().add(artist);
@@ -74,11 +86,19 @@ public class MusicalProjectService {
 	}
 
 	private void apply(MusicalProject project, MusicalProjectRequest request) {
+		/*
+		 * Metodo apply evita duplicar o mapeamento em create e update.
+		 * O DTO representa a entrada HTTP; a entidade representa o registro JPA.
+		 */
 		project.setTitle(request.title().trim());
 		project.setDescription(request.description());
 		project.setMusicalStyle(request.musicalStyle().trim());
 		project.setStatus(request.status());
 		project.setNeeds(request.needs() == null ? new LinkedHashSet<>() : new LinkedHashSet<>(request.needs()));
 		project.setStartDate(request.startDate());
+		project.setLocation(request.location() == null || request.location().isBlank() ? null : request.location().trim());
+		if (request.desiredInfluences() != null) {
+			project.setDesiredInfluences(new LinkedHashSet<>(request.desiredInfluences()));
+		}
 	}
 }

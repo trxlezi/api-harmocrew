@@ -57,6 +57,12 @@ public class RehearsalController {
 		return rehearsalService.updateStatus(id, request);
 	}
 
+	@PatchMapping("/rehearsals/{id}/attendance")
+	public RehearsalResponse attendance(@PathVariable Long id,
+		@Valid @RequestBody br.edu.ifsp.harmocrew_api.dtos.InsightDtos.AttendanceRequest request) {
+		return rehearsalService.registerAttendance(id, request.attendedArtistIds());
+	}
+
 	@DeleteMapping("/rehearsals/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void delete(@PathVariable Long id) {

@@ -44,6 +44,16 @@ public class Application {
 	@Column(nullable = false, updatable = false)
 	private LocalDateTime createdAt;
 
+	// Ultima mudanca de status: o musico ve quando foi avaliado.
+	private LocalDateTime statusUpdatedAt;
+
+	// Comentario do contratante (retorno ao candidato).
+	@Column(columnDefinition = "text")
+	private String evaluationNote;
+
+	// Nota de compatibilidade (0-100) calculada no momento da candidatura.
+	private Integer matchScore;
+
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "artist_id", nullable = false)
 	private Artist artist;

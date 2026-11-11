@@ -24,6 +24,13 @@ import lombok.Setter;
 @Table(name = "users")
 public class User {
 
+	/*
+	 * Entidade da conta de acesso.
+	 *
+	 * User representa login, email, senha e permissao. Artist representa o perfil
+	 * musical. Separar os dois evita misturar dados de autenticacao com dados do
+	 * dominio musical.
+	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -49,6 +56,7 @@ public class User {
 
 	@PrePersist
 	void prePersist() {
+		// PrePersist roda automaticamente antes do primeiro INSERT no banco.
 		if (createdAt == null) {
 			createdAt = LocalDateTime.now();
 		}

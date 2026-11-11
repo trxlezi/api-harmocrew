@@ -11,6 +11,9 @@ public record ArtistResponse(
 	Set<String> musicalStyles,
 	String availability,
 	String city,
-	Long userId
+	Long userId,
+	Set<String> influences,
+	String audioUrl,
+	String audioFilename
 ) {
 }

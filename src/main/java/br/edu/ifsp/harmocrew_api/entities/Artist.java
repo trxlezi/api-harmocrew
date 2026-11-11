@@ -25,6 +25,13 @@ import lombok.Setter;
 @Table(name = "artists")
 public class Artist {
 
+	/*
+	 * Entidade do perfil artistico.
+	 *
+	 * Um Artist pode estar ligado a um User, participar de varios projetos e ter
+	 * varias candidaturas. E esse id de Artist que o mobile usa como autoria em
+	 * mensagens, metas e candidaturas.
+	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -53,10 +60,22 @@ public class Artist {
 
 	private String city;
 
+	// Influencias musicais (artistas/bandas) usadas no calculo de similaridade.
+	@ElementCollection
+	@CollectionTable(name = "artist_influences", joinColumns = @JoinColumn(name = "artist_id"))
+	@Column(name = "influence", nullable = false)
+	private Set<String> influences = new LinkedHashSet<>();
+
+	// Link imutavel (/media/{chave}) do audio de apresentacao do perfil.
+	private String audioUrl;
+
+	private String audioFilename;
+
 	@OneToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "user_id", unique = true)
 	private User user;
 
+	// Muitos-para-muitos: varios artistas podem estar no mesmo projeto.
 	@ManyToMany(mappedBy = "artists")
 	private Set<MusicalProject> projects = new LinkedHashSet<>();
 

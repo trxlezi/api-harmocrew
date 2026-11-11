@@ -1,0 +1,11 @@
+package br.edu.ifsp.harmocrew_api.enums;
+
+public enum NotificationType {
+	TASK_ASSIGNED,
+	TASK_STATUS_CHANGED,
+	TASK_OVERDUE,
+	APPLICATION_STATUS_CHANGED,
+	POLL_OPENED,
+	POLL_CLOSED,
+	FILE_VERSION_UPLOADED
+}
